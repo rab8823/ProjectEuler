@@ -15,8 +15,11 @@ namespace ProjectEuler
 		/// </param>
 		public static bool IsPrime (this int number)
 		{
-			if (number < 2) {
+			if (number < 2 ||) {
 				return false;
+			}
+			if(number == 2){return true;}
+			if(number % 2 == 0){return false;
 			}
 			bool isPrime = true;
 			int start = (int)Math.Ceiling (Math.Sqrt (number));
@@ -25,6 +28,8 @@ namespace ProjectEuler
 			}
 			return isPrime;
 		}
+
+		//TODO: add get next/previous prime methods
 	}
 }
 
