@@ -36,6 +36,13 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="src\utilities\StringUtilities.cs" />
+    <Compile Include="src\utilities\NumberUtilities.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\utilities\" />
+    <Folder Include="src\problems\" />
+  </ItemGroup>
 </Project>
