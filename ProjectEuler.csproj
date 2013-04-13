@@ -32,17 +32,36 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\utilities\StringUtilities.cs" />
     <Compile Include="src\utilities\NumberUtilities.cs" />
     <Compile Include="src\utilities\FileUtilities.cs" />
+    <Compile Include="src\utilities\EnumerableExtensions.cs" />
     <Compile Include="src\ProjectEuler.cs" />
+    <Compile Include="src\collections\TreeNode.cs" />
+    <Compile Include="src\ProblemBase.cs" />
+    <Compile Include="src\IProblem.cs" />
+    <Compile Include="src\problems\Problem11.cs" />
+    <Compile Include="src\collections\Matrix.cs" />
+    <Compile Include="src\problems\Problem12.cs" />
+    <Compile Include="src\problems\Problem13.cs" />
+    <Compile Include="src\problems\Problem14.cs" />
+    <Compile Include="src\problems\Problem16.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="src\" />
     <Folder Include="src\utilities\" />
     <Folder Include="src\problems\" />
+    <Folder Include="src\collections\" />
+    <Folder Include="src\data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\data\problem13.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

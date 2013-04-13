@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace ProjectEuler
+namespace ProjectEuler.src.utilities
 {
 	public static class StringUtilities
 	{

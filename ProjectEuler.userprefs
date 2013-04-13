@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\problems\Problem16.cs">
+    <Files>
+      <File FileName="src\collections\Matrix.cs" Line="202" Column="15" />
+      <File FileName="src\problems\Problem11.cs" Line="132" Column="60" />
+      <File FileName="src\problems\Problem12.cs" Line="18" Column="23" />
+      <File FileName="src\utilities\NumberUtilities.cs" Line="100" Column="39" />
+      <File FileName="src\utilities\StringUtilities.cs" Line="4" Column="37" />
+      <File FileName="src\utilities\FileUtilities.cs" Line="29" Column="5" />
+      <File FileName="src\ProjectEuler.cs" Line="9" Column="27" />
+      <File FileName="src\problems\Problem14.cs" Line="28" Column="17" />
+      <File FileName="src\problems\Problem16.cs" Line="22" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ProjectEuler" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="data" expanded="True" />
+              <Node name="problems" expanded="True">
+                <Node name="Problem16.cs" selected="True" />
+              </Node>
+              <Node name="utilities" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
