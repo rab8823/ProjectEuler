@@ -50,6 +50,9 @@
     <Compile Include="src\problems\Problem13.cs" />
     <Compile Include="src\problems\Problem14.cs" />
     <Compile Include="src\problems\Problem16.cs" />
+    <Compile Include="src\problems\Problem15.cs" />
+    <Compile Include="src\utilities\Point.cs" />
+    <Compile Include="src\problems\Problem17.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -63,5 +66,6 @@
     <None Include="src\data\problem13.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="src\app.config" />
   </ItemGroup>
 </Project>

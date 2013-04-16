@@ -1,11 +1,18 @@
 using System;
+using System.Diagnostics;
 
-namespace ProjectEuler
+namespace ProjectEuler.src.utilities
 {
-	public class Point
+	[DebuggerDisplay("X={X},Y={Y}")]
+	public struct Point
 	{
-		public Point ()
+		public int X;
+		public int Y;
+
+		public Point (int x, int y)
 		{
+			X = x;
+			Y = y;
 		}
 	}
 }
