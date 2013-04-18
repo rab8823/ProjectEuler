@@ -53,6 +53,8 @@
     <Compile Include="src\problems\Problem15.cs" />
     <Compile Include="src\utilities\Point.cs" />
     <Compile Include="src\problems\Problem17.cs" />
+    <Compile Include="src\problems\Problem18.cs" />
+    <Compile Include="src\collections\Node.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -65,7 +67,13 @@
   <ItemGroup>
     <None Include="src\data\problem13.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Gettext-ScanForTranslations>False</Gettext-ScanForTranslations>
     </None>
     <None Include="src\app.config" />
+    <None Include="src\data\problem18.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Gettext-ScanForTranslations>False</Gettext-ScanForTranslations>
+    </None>
+    <None Include="src\data\problem67.txt" />
   </ItemGroup>
 </Project>

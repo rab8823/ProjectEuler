@@ -6,7 +6,7 @@ namespace ProjectEuler
 	{
 		public static void Main ()
 		{
-			var prob =new Problem17();
+			var prob =new Problem18();
 			Console.WriteLine(prob.Profile());
 			Console.ReadLine();
 		}
