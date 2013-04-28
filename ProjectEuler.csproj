@@ -58,6 +58,7 @@
     <Compile Include="src\problems\Problem67.cs" />
     <Compile Include="src\problems\Problem20.cs" />
     <Compile Include="src\problems\Problem28.cs" />
+    <Compile Include="src\problems\Problem22.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -78,6 +79,9 @@
       <Gettext-ScanForTranslations>False</Gettext-ScanForTranslations>
     </None>
     <None Include="src\data\problem67.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\data\problem22.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
