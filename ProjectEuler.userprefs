@@ -1,12 +1,13 @@
-﻿<Properties GitUserInfo="UsingMD">
+﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\problems\Problem12.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectEuler.csproj">
     <Files>
       <File FileName="src\utilities\NumberUtilities.cs" Line="1" Column="1" />
       <File FileName="src\utilities\StringUtilities.cs" Line="1" Column="1" />
       <File FileName="src\utilities\FileUtilities.cs" Line="1" Column="1" />
       <File FileName="src\ProjectEuler.cs" Line="1" Column="1" />
-      <File FileName="src\problems\Problem12.cs" Line="20" Column="4" />
+      <File FileName="src\problems\Problem12.cs" Line="21" Column="55" />
+      <File FileName="ProjectEuler.csproj" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,9 +16,7 @@
             <Node name="src" expanded="True">
               <Node name="collections" expanded="True" />
               <Node name="data" expanded="True" />
-              <Node name="problems" expanded="True">
-                <Node name="Problem12.cs" selected="True" />
-              </Node>
+              <Node name="problems" expanded="True" selected="True" />
               <Node name="utilities" expanded="True" />
             </Node>
           </Node>
@@ -29,9 +28,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="E:\andrew\docs\Projects\ProjectEuler\src\problems\Problem12.cs" line="20" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
