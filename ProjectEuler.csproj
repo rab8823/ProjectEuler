@@ -34,6 +34,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <Reference Include="nunit.framework" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\utilities\StringUtilities.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="src\problems\Problem20.cs" />
     <Compile Include="src\problems\Problem28.cs" />
     <Compile Include="src\problems\Problem22.cs" />
+    <Compile Include="src\problems\Problem48.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
