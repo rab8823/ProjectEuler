@@ -8,6 +8,25 @@ namespace ProjectEuler.src.utilities
 {
     public static class NumberUtilities
     {
+
+        public static bool[] GetPrimes(int max){
+            bool[] isPrime = new bool[max];
+            for (int i = 0; i < max; i++) {
+                isPrime[i] = true;
+            }
+            isPrime[0] = false;
+            isPrime[1] = false;
+            for (int i = 2; i < max; i++) {
+                if(isPrime[i]){
+                    int start = i*i;
+                    for (int j = start; j < max; j+=i) {
+                        isPrime[j] = false;
+                    }
+                }
+            }
+            return isPrime;
+        }
+
         /// <summary>
         /// Determines if the specified number is prime (naively)
         /// </summary>
@@ -34,41 +53,6 @@ namespace ProjectEuler.src.utilities
                 isPrime = number % i == 0;
             }
             return isPrime;
-        }
-
-        public static bool IsPrime(this BigInteger number)
-        {
-            if (number == 2)
-            {
-                return true;
-            }
-            if (number.IsEven)
-            {
-                return false;
-            }
-            bool isPrime = true;
-            //number.
-            return false;
-        }
-
-        //TODO: add get next/previous prime methods
-        public static BigInteger GetNthPrime(ulong nth)
-        {
-            if (nth < 1)
-            {
-                throw new ArgumentOutOfRangeException("nth");
-            }
-            BigInteger nthPrime = new BigInteger(2);
-            ulong n = 1;
-            while (n<nth)
-            {
-                while (!nthPrime.IsPrime())
-                {
-                    nthPrime++;
-                }
-                n++;
-            }
-            return nthPrime;
         }
 
 		#region Matrix math
