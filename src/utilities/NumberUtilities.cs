@@ -19,7 +19,7 @@ namespace ProjectEuler.src.utilities
             for (int i = 2; i < max; i++) {
                 if(isPrime[i]){
                     int start = i*i;
-                    for (int j = start; j < max; j+=i) {
+                    for (int j = start; j>=0 && j < max; j+=i) {
                         isPrime[j] = false;
                     }
                 }
