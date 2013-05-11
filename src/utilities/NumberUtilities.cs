@@ -27,6 +27,34 @@ namespace ProjectEuler.src.utilities
             return isPrime;
         }
 
+//		public static IDictionary<int,int> GetPrimeFactors(int n, bool[] primes){
+//			var factors = new Dictionary<uint,uint> ();
+//			if (n < primes.Length)
+//			{
+//				uint end = n / 2;
+//				for (uint i = 2; i <= end; i++) {
+//					if(primes[i]){
+//						uint e = 0;
+//						uint temp = n;
+//						while(temp % i == 0){
+//							e++;
+//							temp = temp / i;
+//						}
+//						if(e>0){
+//							factors.Add (i, e);
+//						}
+//					}
+//				}
+//				if(primes[n]){
+//					factors.Add (n, (uint)1);
+//				}
+//			} else
+//			{
+//				throw new ArgumentOutOfRangeException("generate more primes");
+//			}
+//			return factors;
+//		}
+
         /// <summary>
         /// Determines if the specified number is prime (naively)
         /// </summary>
